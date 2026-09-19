@@ -1,0 +1,35 @@
+CNN-based image classification using PyTorch on the Intel Image Classification dataset.
+
+## Classes
+
+- Buildings
+- Forest
+- Glacier
+- Mountain
+- Sea
+- Street
+
+## Model
+
+The CNN consists of:
+
+- 4 convolutional blocks
+- Batch Normalization
+- ReLU
+- Max Pooling
+- Adaptive Average Pooling
+- Dropout
+- Fully connected classification layer
+
+## Dataset
+
+The dataset is not included in this repository because of its size.
+
+Download the Intel Image Classification dataset and place it in:
+
+```text
+seg_train/
+seg_test/
+seg_pred/
+link for dataset
+https://www.kaggle.com/datasets/puneet6060/intel-image-classification
